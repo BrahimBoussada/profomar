@@ -13,13 +13,14 @@ export default function WhoIsProfOmar() {
     <main className="">
       <Container>
         <Section className="text-center text-balance pt-[2rem]">
-          <h1 className="pb-[1rem] text-primary-blue text-4xl md:text-5xl font-bold !leading-[3.5rem] font-ubuntu ">
+          <h1 className="pb-[1rem] text-primary-blue text-4xl md:text-5xl font-bold !leading-[3.5rem] font-ubuntu">
             Who is Prof. Dr Omar Boussada
           </h1>
-
-          <SectionParagraph className=" text-lg text-muted-foreground lg:text-xl">
+          <p className=" text-lg text-muted-foreground lg:text-xl">
             Learn more and get insight into his life work.
-          </SectionParagraph>
+          </p>
+
+          <SectionParagraph className="hidden">.</SectionParagraph>
         </Section>
         <div></div>
 

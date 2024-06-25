@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 export const HomepageHero = () => {
   return (
     <Hero className="">
-      <HeroTitle className="text-balance text-4xl lg:text-7xl font-medium text-primary-blue mt-[2rem] lg:mt-[6rem] !leading-[4rem] lg:!leading-[5rem] font-ubuntu ">
+      <HeroTitle className="text-balance text-5xl lg:text-7xl font-medium text-primary-blue mt-[2rem] lg:mt-[6rem] !leading-[4rem] lg:!leading-[5rem] font-ubuntu ">
         Unlock Your Full Potential with <br /> Professor Omar
       </HeroTitle>
       <HeroParagraph className="text-balance font-medium text-foreground/75 text-lg md:text-2xl  tracking-wide my-[2rem] !leading-[2.25rem]  ">
