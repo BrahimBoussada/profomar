@@ -13,8 +13,8 @@ export default function WhoIsProfOmar() {
     <main className="">
       <Container>
         <Section className="text-center text-balance pt-[2rem]">
-          <h1 className="pb-[1rem] text-primary-blue text-5xl md:text-5xl font-bold !leading-[3.5rem] font-ubuntu">
-            Who is Prof. Dr. Omar Boussada
+          <h1 className="pb-[1rem] text-primary-blue text-4xl md:text-5xl font-bold !leading-[3.5rem] font-ubuntu ">
+            Who is Prof. Dr Omar Boussada
           </h1>
 
           <SectionParagraph className=" text-lg text-muted-foreground lg:text-xl">
@@ -25,7 +25,7 @@ export default function WhoIsProfOmar() {
 
         <div className="flex  flex-col gap-[1rem] max-w-[880px] mx-auto">
           {bios.map((bio) => (
-            <p key={bio.id} className=" text-lg text-justify leading-8">
+            <p key={bio.id} className=" text-lg leading-8 text-pretty">
               {bio.paragraph}
             </p>
           ))}

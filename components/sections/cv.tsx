@@ -13,7 +13,7 @@ export const Cv = () => {
         into his rich experiences, achievements, and contributions to the world
         of academia.
       </p>
-      <div className=" flex gap-[1rem]">
+      <div className=" flex gap-[1rem] flex-col lg:flex-row">
         <Button asChild size="lg">
           <Link href="/pdf/CV.pdf">{`Download CV`}</Link>
         </Button>

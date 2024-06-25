@@ -25,5 +25,5 @@ export const SectionHeading = ({ children, className }: SectionProps) => {
 };
 
 export const SectionParagraph = ({ children, className }: SectionProps) => {
-  return <p className={className}>{children}</p>;
+  return <p className={cn("!text-base !md:text-lg", className)}>{children}</p>;
 };
